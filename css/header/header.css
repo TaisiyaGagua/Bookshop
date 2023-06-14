@@ -1,0 +1,83 @@
+header {
+  display: flex;
+  gap: 11vw;
+  justify-content: space-between;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #FFFFFF;
+}
+
+h1 {
+  align-self: center;
+  cursor: pointer;
+  padding-left: 7vw;
+  line-height: 29px;
+  color: #1C2A39;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.header__container-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 40px;
+  padding: 50px 0;
+}
+
+.header__link {
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 12px;
+  white-space: nowrap;
+  color: #5C6A79;
+  font-family: "Montserrat";
+  font-size: 10px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.header__action-button {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: space-between;
+  padding-right: 150px;
+}
+
+.action_button {
+  cursor: pointer;
+}
+
+.header_button_active {
+  color: #1C2A39;
+  font-weight: 900;
+}
+
+.items_in_basket {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-around;
+  visibility: hidden;
+  margin: 55px 0px 0px 114px;
+  border-radius: 50%;
+  background-color: #FF353A;
+  width: 13px;
+  height: 13px;
+  text-transform: capitalize;
+  line-height: 12px;
+  color: #FFFFFF;
+  font-family: "Montserrat";
+  font-size: 10px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=header.css.map */

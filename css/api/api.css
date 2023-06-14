@@ -1,0 +1,123 @@
+.bookPicture {
+  box-shadow: 0px 15px 20px rgba(67, 67, 67, 0.3);
+  width: 212px;
+  height: 300px;
+}
+
+.book_discription {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: space-evenly;
+  padding: 30px 36px;
+  width: 170px;
+}
+
+.authors,
+.ratingsCount,
+.description,
+.ratingsCount {
+  line-height: 14px;
+  color: #5C6A79;
+  font-family: "Open Sans";
+  font-size: 10px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.description {
+  display: -webkit-box;
+  margin: 16px 0;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.title {
+  line-height: 20px;
+  color: #1C2A39;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.amount {
+  text-transform: uppercase;
+  line-height: 16px;
+  color: #1C2A39;
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  width: fit-content;
+}
+
+.book_cards {
+  display: flex;
+  position: relative;
+  top: -680px;
+  left: 350px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5vw;
+  align-content: center;
+  justify-content: flex-start;
+  width: 70vw;
+}
+
+.button {
+  border: 1px solid #4C3DB2;
+  background-color: #FFFFFF;
+  padding: 18px 62px;
+  text-transform: uppercase;
+  line-height: 10px;
+  color: #4C3DB2;
+  font-family: "Montserrat";
+  font-size: 8px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.main_button_load_more {
+  margin-top: -600px;
+  margin-left: 50vw;
+}
+
+.disabled {
+  border: 1px solid #EEEDF5;
+  padding: 18px 55px;
+  color: #5C6A79;
+}
+
+.reviewStar {
+  background-image: url(../../images/svg/star_yellow.svg);
+  background-size: cover;
+  width: 12px;
+  height: 12px;
+}
+
+.reviewStarNone {
+  background-image: url(../../images/svg/star_grey.svg);
+  background-size: cover;
+  width: 12px;
+  height: 12px;
+}
+
+.ratingsCount {
+  margin-left: 6px;
+}
+
+.star__container {
+  display: flex;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=api.css.map */

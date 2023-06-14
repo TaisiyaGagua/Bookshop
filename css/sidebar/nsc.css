@@ -1,0 +1,43 @@
+.main_nav_link {
+  text-transform: capitalize;
+  text-decoration: none;
+  line-height: 15px;
+  color: #5C6A79;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.main_nav {
+  display: flex;
+  flex-direction: column;
+  background: #EFEEF6;
+  width: 416px;
+  height: 710px;
+}
+
+.main_nav_container {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  align-content: flex-start;
+  align-items: flex-start;
+  margin-top: 4vw;
+  margin-left: 7vw;
+}
+
+.active_link {
+  line-height: 20px;
+  color: #1C2A39;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.li_display {
+  display: list-item;
+  list-style-type: disc;
+  color: #756AD3;
+}
+
+/*# sourceMappingURL=nsc.css.map */
