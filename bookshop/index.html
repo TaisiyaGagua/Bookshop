@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshop</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="fonts/font.css" rel="stylesheet">
+    <link href="css/header/header.css" rel="stylesheet" type="text/css">
+    <link href="css/slider/slider.css" rel="stylesheet">
+    <link href="css/sidebar/nav.css" rel="stylesheet">
+    <link href="css/api/api.css" rel="stylesheet">
+    <link href="css/breakpoint.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <h1>Bookshop</h1>
+        <div class="header__container-links">
+            <a class="header__link header_button_active" href="#">books</a>
+            <a class="header__link " href="#">audiobooks</a>
+            <a class="header__link " href="#">Stationery & gifts</a>
+            <a class="header__link " href="#">blog</a>
+            <script src="js/header.js"></script>
+        </div>
+        <div class="header__action-button">
+            <img class="action_button" src="images/svg/user.svg" alt="user">
+            <img class="action_button" src="images/svg/search.svg" alt="search">
+            <img class="action_button" src="images/svg/shop bag.svg" alt="basket">
+            <span class="items_in_basket"></span>
+        </div>
+    </header>
+    <div class="slider">
+        <div class="slider__image_container">
+            <img class="slider__bookshop_image slider__bookshop_image1 show" src="images/svg/banner.svg"
+                alt="BLACK FRIDAY SALE">
+            <img class="slider__bookshop_image slider__bookshop_image2" src="images/svg/banner 2.svg"
+                alt="BLACK FRIDAY SALE">
+            <img class="slider__bookshop_image slider__bookshop_image3" src="images/svg/banner 3.svg"
+                alt="BLACK FRIDAY SALE">
+        </div>
+        <div class="slider_dots_container">
+            <div class="slider_circle pressed"></div>
+            <div class="slider_circle"></div>
+            <div class="slider_circle"></div>
+        </div>
+        <script src="js/slider.js"></script>
+    </div>
+    <div class="slider__sticker slider__sticker_purple">
+        <p class="sticker_text"> Change<br>
+            old book<br>
+            on new</p>
+        <img class="stiker_arrow" src="images/svg/arrow.svg" alt="see more">
+    </div>
+    <div class="slider__sticker slider__sticker_pink">
+        <p class="sticker_text">
+            top<br>
+            100<br>
+            books<br>
+            2022</p>
+        <img class="stiker_arrow" src="images/svg/arrow.svg" alt="see more">
+
+    </div>
+    <main>
+        <nav class="main_nav">
+            <ul class="main_nav_container">
+                <li class="li_nav li_display">
+                    <div class="main_nav_link main__button_architecture active_link">Architecture</div>
+                </li>
+                <li class="li_nav ">
+                    <div class="main_nav_link main__button_art">Art &
+                        Fashion</div>
+                </li>
+                <li class="li_nav">
+                    <div class="main_nav_link main__button_biography">Biography</div>
+                </li>
+                <li class="li_nav">
+                    <div class="main_nav_link main__button_business">Business</div>
+                </li>
+                <li class="li_nav">
+                    <div class="main_nav_link main__button_crafts">Crafts &
+                        Hobbies</div>
+                </li>
+                <li class="li_nav">
+                    <div class="main_nav_link main__button_drama">Drama</div>
+                </li>
+                <li class="li_nav">
+                    <div class="main_nav_link main__button_fiction">Fiction</div>
+                </li>
+                <li class="li_nav">
+                    <div class="main_nav_link main__button_food">Food &
+                        Drink</div>
+                </li>
+                <li class="li_nav">
+                    <div class="main_nav_link main__button_health">Health &
+                        Wellbeing</div>
+                </li>
+                <li class="li_nav">
+                    <div class="main_nav_link main__button_history">History
+                        & Politics</div>
+                </li>
+                <li class="li_nav">
+                    <div class="main_nav_link main__button_humor">Humor</div>
+                </li>
+                <li class="li_nav">
+                    <div class="main_nav_link main__button_poetry">Poetry</div>
+                </li>
+                <li class="li_nav">
+                    <div class="main_nav_link main__button_psychology">Psychology</div>
+                </li>
+                <li class="li_nav">
+                    <div class="main_nav_link main__button_science">Science</div>
+                </li>
+                <li class="li_nav">
+                    <div class="main_nav_link main__button_technology">Technology</div>
+                </li>
+                <li class="li_nav">
+                    <div class="main_nav_link main__button_travel">Travel &
+                        Maps</div>
+                </li>
+            </ul>
+            <script src="js/nav.js"></script>
+
+        </nav>
+        <div class="book_cards">
+
+        </div>
+
+        <div class="main_button_load_more">
+            <button class="button button_more">Load more</button>
+        </div>
+
+        <script src="js/api.js"></script>
+    </main>
+</body>
+
+</html>
